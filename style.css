@@ -6,20 +6,27 @@
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
+:root{
+  --purple-color :rgb(115, 15, 208);
+  --background-color: rgb(5, 123, 186);
+}
 body{
   background-color: rgb(248, 240, 240);
+  color: black;
 }
 
 header{
   height: 70vh;
-  background-color: rgb(5, 123, 186);
+  background-color:var(--background-color);
 }
 nav{
   float: right;
   color:#fff;
   margin-right: 40px;
   margin-top: 20px;
+
 }
+nav::-webkit-scrollbar { display: none; }
 .nav-item{
   margin-left: 10px;
   cursor: pointer;
@@ -49,7 +56,7 @@ nav{
 }
 .companies{
   margin-left: 50px;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 .company-items{
   margin-left: 40px;
@@ -78,16 +85,126 @@ nav{
   background-color:white;
 }
 .logo-card{
-
-  background-color: rgb(115, 15, 208);
+  display: flex;
+  justify-content: center;
+  background-color:var(--background-color);
   margin-right: 30px;
-  margin-top: 80px;
+  margin-top: 60px;
   color: #fff;
-  width: 25px;
-  height:fit-content;
-  text-align: center;
+  width: 30px;
+  height: max-content;
   border-radius: 50%;
   font-size: 35px;
   font-weight: 500;
-  
 }
+
+/* .logo-card::-webkit-scrollbar { display: none; } */
+
+.blog-heading{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.blog-cards{
+  display: flex;
+  justify-content: space-around;
+}
+.blog-content{
+  margin-left: 40px;
+}
+.blog-card{
+  display: flex;
+  background-color: white;
+
+}
+.blog-bottom{
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 320px;
+}
+.blog-author{
+  /* position: relative; */
+  /* margin-top: 260px;
+  margin-right: 10px; */
+  margin-top: 250px;
+  
+
+}
+.blog-writer{
+  font-size: small;
+  margin-right: 20px;
+}
+.faq-section{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 75px;
+  background-color: #ffffff;
+  padding: 0;
+}
+.faq-content{
+  padding-left: 70px;
+  padding-top: 40px;
+  padding-bottom: 0;
+  font-size: small;
+}
+.faq-image{
+  height:300px;
+  overflow-y: hidden;
+}
+.faq-content>button{
+  background-color: var(--background-color);
+  height: 2.5rem;
+  width:7rem;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+}
+.download-content{
+  font-size: small;
+}
+.download-section{
+  display: flex;
+  margin:50px 0;
+  height: 200px;
+  background-color:#fff;
+  align-items: center;
+  justify-content: space-around;
+}
+.download-email input{
+  display: inline-block;
+  height: 2rem;
+  width: 300px;
+  border-radius: 30px;
+  padding-left: 20px;
+  border: none;
+  background-color: rgb(249, 240, 240);
+}
+.download-email button{
+  height: 2.3rem;
+  width: 7rem;
+  right: 50px;
+  position: relative;
+  border-radius: 30px;
+  background-color: var(--background-color);
+  color: #fff;
+  border: none;
+}
+.footer-section{
+  background-color: var(--background-color);
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: #fff;
+}
+.list{
+  height: 100px;
+  display: flex;
+
+}
+.footer-left{
+  margin-top: 50px;
+  padding-left: -30px;
+}
+.list-items{
+  margin-left: 10px;
+}
+
