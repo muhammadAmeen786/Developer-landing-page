@@ -34,7 +34,8 @@ nav::-webkit-scrollbar { display: none; }
 .nav-item-active{
   background-color: #fff;
   padding: 10px;
-  border-radius: 8px;
+
+  border-radius: 10px;
   color: black;
   font-weight: 500;
 }
@@ -83,6 +84,9 @@ nav::-webkit-scrollbar { display: none; }
 }
 .card-active{
   background-color:white;
+}
+.card-active>h3{
+  color: var(--background-color);
 }
 .logo-card{
   display: flex;
@@ -200,11 +204,40 @@ nav::-webkit-scrollbar { display: none; }
   display: flex;
 
 }
+.list-items{
+  margin-left: 15px;
+  font-size: small;
+}
 .footer-left{
   margin-top: 50px;
   padding-left: -30px;
 }
-.list-items{
-  margin-left: 10px;
+.footer-right{
+  margin-top: 30px;
+}
+.footer-logos{
+  font-size: small;
+  margin-left: 20px;
+}
+.logos-list{
+  display: flex;
+  margin-left: -50px;
+}
+.logos-list>li{
+  border-left: 2px solid white;
+  padding-left: 20px;
+  height: 19px;
+  overflow: hidden;
+}
+.list>li{
+  border-left: 2px solid white;
+  height: 20px;
+  padding-left: 14px;
+}
+.logos-list>.b-none , .list>.b-none{
+  border-left: 2px solid var(--background-color)
+}
+.blog-content>h6{
+  color: var(--background-color);
 }
 
