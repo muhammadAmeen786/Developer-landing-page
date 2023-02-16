@@ -1,0 +1,93 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+body{
+  background-color: rgb(248, 240, 240);
+}
+
+header{
+  height: 70vh;
+  background-color: rgb(5, 123, 186);
+}
+nav{
+  float: right;
+  color:#fff;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.nav-item{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.nav-item-active{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  color: black;
+  font-weight: 500;
+}
+.logo{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.header-text{
+  color:#fff;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.header-image{
+  position: absolute;
+  left: 55vw;
+  bottom: 20vh;
+  width: 580px;
+  height: 400px;
+}
+.companies{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.company-items{
+  margin-left: 40px;
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+}
+.company-items:hover{
+  color: rgb(106, 37, 37);
+}
+.api{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.card{
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+}
+.card-active{
+  background-color:white;
+}
+.logo-card{
+
+  background-color: rgb(115, 15, 208);
+  margin-right: 30px;
+  margin-top: 80px;
+  color: #fff;
+  width: 25px;
+  height:fit-content;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 35px;
+  font-weight: 500;
+  
+}
